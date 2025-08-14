@@ -1,1 +1,73 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Playlist Box */
+.playlist {
+    background-color: white;
+    width: 600px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist li {
+    padding: 5px 0;
+}
+
+/* Now Playing Heading */
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Now Playing Box */
+.now-playing {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+/* Video Styling */
+video {
+    border-radius: 4px;
+    margin-bottom: 10px;
+	height:400px
+}
+
+/* Audio Section */
+h3 {
+    margin: 10px 0 5px;
+}
+
+/* Left-align the song title paragraph */
+.now-playing p {
+    text-align: left;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+audio {
+    width: 100%;
+}
