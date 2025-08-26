@@ -6,6 +6,12 @@ body {
     padding: 20px;
 }
 
+a{
+	text-decoration-line:none;
+	list-style-type: none;
+	
+}
+
 /* Heading */
 h1 {
     font-size: 2em;
